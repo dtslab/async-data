@@ -17,9 +17,7 @@ const Planets = () => {
   const { data, status } = useQuery(['planets',page ], () =>fetchPlanets(page),{
     keepPreviousData: true,
   });
-  
-
- 
+   
   return (
     
         <div>
